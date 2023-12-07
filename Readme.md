@@ -17,8 +17,8 @@ Salome Koller <br />
 #### Hypothesis and Data Definition
 **Research Question**: To what extent can machine learning models accurately classify tweets as cyberbullying or non-cyberbullying based on the content and linguistic features, and what key features contribute the most to the classification?
 
-**H0**: Machine learning models cannot accurately classify tweets as cyberbullying or non-cyberbullying based on content and linguistic features, and these features do not significantly contribute to the classification.
-**H1**: Machine learning models can accurately classify tweets as cyberbullying or non-cyberbullying based on content and linguistic features, and certain key features play a significant role in the classification process.
+**H0**: The distribution of the number of unique receiveruser_ids for each senderuser_id follows a uniform or normal distribution. There is no significant difference in the frequency of senderuser_ids based on the number of unique receiveruser_ids, suggesting that the interaction patterns are evenly spread or normally distributed across the dataset.
+**H1**: The distribution of the number of unique receiveruser_ids for each senderuser_id **does not** follow a uniform or normal distribution. There is a significant difference in the frequency of senderuser_ids based on the number of unique receiveruser_ids, suggesting that the interaction patterns are not evenly spread or distributed across the dataset.
 
 #### Categorization of data
 
