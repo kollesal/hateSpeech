@@ -23,5 +23,4 @@ semi-structured: We don't use semi-structured data.
 structured data: after the web scraping and data preparation the data is saved in the MySQL Table and considered as structured.
 
 
----------------------------
-Beziehung der Daten
+
