@@ -1,4 +1,4 @@
-# Project work for Machine Learning II
+# Project work for Python Grundlagen
 
 ## Students
 Melvin Kurisunkal <br />
@@ -14,7 +14,7 @@ Salome Koller <br />
 
 ### 01 Kontext
 
-#### Hypothesis / Objectives
+#### Hypothesis and Data Definition
 **Research Question**: To what extent can machine learning models accurately classify tweets as cyberbullying or non-cyberbullying based on the content and linguistic features, and what key features contribute the most to the classification?
 
 **H0**: Machine learning models cannot accurately classify tweets as cyberbullying or non-cyberbullying based on content and linguistic features, and these features do not significantly contribute to the classification.
@@ -40,11 +40,40 @@ unstructured: the tweets are considered as unstructured.
 semi-structured: We don't use semi-structured data.
 structured data: after the web scraping and data preparation the data is saved in the MySQL Table and considered as structured.
 
-### Solution idea
-XXX
+### 02 Unifying & Transformation
+We have 2 Tables: The Tweets and the Users. The Join of this 2 Tables has been done in Postgres. 
+Also, because we only use String variables from the main tweet dataset, and a Classification Case, we don't need to unify and tranform the Dataset.
 
-### Not part of the solution
-XXX
+### 03 Data Cleansing
+The Distribution of the Classification has been checked, as well as the search for missing values.
+**Result**: The Cyberbulling Types are distributed evenly with a slight lower amount of the class "other_cyberbullying".
+There are no missing values in the dataset.
+
+### 04 Analysis & Validation
+
+### 05 Feature Selection & Engineering
+The following Feature Engineering has been made:
+- Text statistics (Average lengths of strings)
+- Pattern Creation (One-Hot Encoding)
+- Text Lengths
+
+### 06 EDA
+The step is so late, because we only have String values in the dataset. At first, we needed to create some Int values to make a small EDA evaluation. We kept this part short, because it doesn't analyse the original dataset and is therefore not 100% accurate because it has been created through the feature engineering.
+The following analysis has been made: 
+- Non Graphical Univariate EDA
+- Non Graphical Multivariate EDA
+- Graphical Univariate EDA
+- Graphical Multivariate EDA
+
+### 07 Anwendung in Machine Learning
+
+### 08 Anwendung von XAI – Techniken
 
 
-### Data set
+
+
+
+
+
+
+
