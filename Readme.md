@@ -42,6 +42,11 @@ structured data: after the web scraping and data preparation the data is saved i
 
 ### 02 Unifying & Transformation
 We have 2 Tables: The Tweets and the Users. The Join of this 2 Tables has been done in Postgres. 
+
+The unified and transformed files are accessible in 01_Kontext/10_datasource
+**Original CSV**: cyberbullying_tweets.csv
+**In Prostgres transformed CSV**: interaction_with_date_and_time.csv
+
 Also, because we only use String variables from the main tweet dataset, and a Classification Case, we don't need to unify and tranform the Dataset.
 
 ### 03 Data Cleansing
