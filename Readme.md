@@ -17,8 +17,10 @@ Salome Koller <br />
 #### Hypothesis and Data Definition
 **Research Question**: To what extent can machine learning models accurately classify tweets as cyberbullying or non-cyberbullying based on the content and linguistic features, and what key features contribute the most to the classification?
 
-**H0**: The distribution of the number of unique receiveruser_ids for each senderuser_id follows a uniform or normal distribution. There is no significant difference in the frequency of senderuser_ids based on the number of unique receiveruser_ids, suggesting that the interaction patterns are evenly spread or normally distributed across the dataset.<br /><br />
-**H1**: The distribution of the number of unique receiveruser_ids for each senderuser_id **does not** follow a uniform or normal distribution. There is a significant difference in the frequency of senderuser_ids based on the number of unique receiveruser_ids, suggesting that the interaction patterns are not evenly spread or distributed across the dataset.
+**H0**: The mean character count of tweets in the 'harass' group is equal to the character count of tweets in the 'not_harass' group. There is no significant difference in the mean character counts between tweets labeled as harassment and tweets not labeled as harassment.<br /><br />
+**H1**: The mean character count of tweets in the 'harass' group **is not** equal to the character count of tweets in the 'not_harass' group. There is no significant difference in the mean character counts between tweets labeled as harassment and tweets not labeled as harassment. <br /><br />
+
+Additional Question: Is there evidence to suggest that the distribution of the number of unique receiveruser_ids for each senderuser_id follows a normal distribution, and is there any significant difference in the frequency of senderuser_ids based on the number of unique receiveruser_ids, indicating that the interaction patterns are evenly spread or normally distributed across the dataset?
 
 #### Categorization of data
 
