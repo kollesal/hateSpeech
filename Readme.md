@@ -79,9 +79,7 @@ The following analysis has been made:
 - Graphical Univariate EDA
 - Graphical Multivariate EDA
 
-### 07 Anwendung in Machine Learning
-
-### 08 Anwendung von XAI – Techniken
+### 07 Anwendung in Machine Learning und XAI Techniken
 
 
 
