@@ -57,7 +57,7 @@ The unified and transformed files are accessible in 01_Kontext/10_datasource<br 
 Also, because we only use String variables from the main tweet dataset, and a Classification Case, we don't need to unify and tranform the Dataset.
 
 ### 03 Data Cleansing
-The Distribution of the Classification has been checked, as well as the search for missing values.
+The Distribution of the Classification has been checked, as well as the search for missing values.<br />
 **Result**: The Cyberbulling Types are distributed evenly with a slight lower amount of the class "other_cyberbullying".
 There are no missing values in the dataset.
 
